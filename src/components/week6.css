@@ -1,0 +1,68 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+  }
+  
+  .output {
+  
+    padding: 20px;
+    width: 70%;
+  
+  }
+  
+  .welcome,
+  .user-info,
+  .user-type {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .user-type {
+    font-weight: bold; /* Make user type text bold */
+  }
+  
+  
+  
+  .student-details {
+    margin-top: 20px;
+
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: row; /* Display cards side by side */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+    justify-content: center;
+     /* Center content horizontally */
+   
+  }
+  
+  .student-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px; /* Reduced padding for a smaller size */
+    margin: 10px; /* Add margin between cards */
+    background-color: #f9f9f9; /* Add background color */
+    width: calc(50% - 20px); /* Set width of each card, subtracting margin */
+    max-width: 300px; /* Limit max width of the cards */
+   
+    
+  }
+  
+  .student-card h3 {
+    margin-top: 0;
+    font-size: 16px; /* Reduced font size of student name */
+  }
+  
+  .student-card p {
+    margin: 5px 0; /* Reduced paragraph margin */
+  
+  }
+  
+  .cont2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
